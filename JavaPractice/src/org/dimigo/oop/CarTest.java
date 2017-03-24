@@ -25,13 +25,13 @@ public class CarTest {
 		Car car2 = new Car();
 		Car car3 = new Car();
 		
-		car1.setCompany("현재자동차");
+		car1.setCompany("현대자동차");
 		car1.setModel("제네시스");
 		car1.setColor("검정색");
 		car1.setMaxSpeed(225);
 		car1.setPrice(50000000);
 		
-		car2.setCompany("기차자동차");
+		car2.setCompany("기아자동차");
 		car2.setModel("K7");
 		car2.setColor("흰색");
 		car2.setMaxSpeed(225);
@@ -63,7 +63,6 @@ public class CarTest {
 		System.out.println("색상 : "+car3.getColor());
 		System.out.println("최대속도 : "+car3.getMaxSpeed() + "km");
 		System.out.println("가격 : "+ String. format("%,d", car3.getPrice()) + "원");
-		System.out.println();
 	}
 
 }
